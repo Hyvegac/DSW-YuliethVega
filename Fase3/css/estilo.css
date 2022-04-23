@@ -1,0 +1,29 @@
+header{
+    background-color:#9ADCFF ;
+    padding: 20px;
+}
+nav{
+    background-color: #FFF89A;
+    color: rgb(12, 11, 10);
+}
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+article{
+    background-color: #FFB2A6;
+    grid-column:1/4 ;
+}
+aside{
+    background-color: #FF8AAE;
+    padding: 30px;
+    grid-column:4/5 ;
+}
+footer{
+    background-color:#9ADCFF;
+    color: rgb(15, 15, 14);
+    padding: 10px;
+}
+.centrado{
+    text-align: center;
+}
